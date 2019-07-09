@@ -1,0 +1,25 @@
+{
+  "name": "fe-framework",
+  "version": "1.0.0",
+  "description": "fe-framework",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ftTony/fe-framework.git"
+  },
+  "author": "tony",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ftTony/fe-framework/issues"
+  },
+  "homepage": "https://github.com/ftTony/fe-framework#readme",
+  "dependencies": {
+    "@babel/plugin-proposal-class-properties": "^7.5.0",
+    "@babel/plugin-transform-runtime": "^7.5.0",
+    "@babel/preset-env": "^7.5.2",
+    "webpack": "^4.35.3"
+  }
+}
