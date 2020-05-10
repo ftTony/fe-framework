@@ -156,7 +156,7 @@ var set = exports.set = function () {
 
           case 12:
             if (!value) {
-              console.log();
+              console.log(_chalk2.default, red(_chalk2.default.bold('Error:')), _chalk2.default.red('value is required'));
             }
             Object.assign(opts, _defineProperty({}, key, value));
             _context3.next = 17;

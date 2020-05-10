@@ -51,7 +51,7 @@ export const set = async (key, value) => {
       return;
     }
     if (!value) {
-      console.log();
+      console.log(chalk, red(chalk.bold('Error:')), chalk.red('value is required'));
     }
     Object.assign(opts, {
       [key]: value

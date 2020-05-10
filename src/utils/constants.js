@@ -1,4 +1,6 @@
-import { version } from '../../package.json';
+import {
+  version
+} from '../../package.json';
 
 // 当前package.json 的版本号
 export const VERSION = version;
@@ -10,6 +12,6 @@ const HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'];
 export const RC = `${HOME}/.xwz`;
 
 export const DEFAULTS = {
-    registry: '',
-    trype: 'users'
+  registry: 'fttony',
+  trype: 'users'
 }

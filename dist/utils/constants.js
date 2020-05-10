@@ -1,7 +1,7 @@
 'use strict';
 
 Object.defineProperty(exports, "__esModule", {
-    value: true
+  value: true
 });
 exports.DEFAULTS = exports.RC = exports.VERSION = undefined;
 
@@ -17,6 +17,6 @@ var HOME = process.env[process.platform === 'win32' ? 'USERPROFILE' : 'HOME'];
 var RC = exports.RC = HOME + '/.xwz';
 
 var DEFAULTS = exports.DEFAULTS = {
-    registry: '',
-    trype: 'users'
+  registry: 'fttony',
+  trype: 'users'
 };
